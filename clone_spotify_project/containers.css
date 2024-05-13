@@ -1,0 +1,204 @@
+    
+    /* Página inteira */
+
+    body {
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #container {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 1.5vh;
+    }
+    
+    /* Lateral do site */
+
+    #lateral {
+        display: flex;
+        flex-flow: column wrap;
+        width: 50vh;
+        min-height: 87vh;
+        gap: 1.5vh;
+    }
+
+    .box1 {
+        background-color: #1C1C1C;
+        width: 50vh;
+        height: 15vh;
+        border-radius: 8px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+    }
+
+    .box2 {
+        background-color: #1C1C1C;
+        width: 50vh;
+        height: 70.5vh;
+        border-radius: 8px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .biblioteca {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        height: 10vh;
+        align-items: center;
+    }
+
+    .container-explorar {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #1C1C1C;
+        max-height: 34vh;
+        gap: 3.7vh;
+        overflow-y: scroll;
+    }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+        background-color:  transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: hsla(0,0%,100%,.3); 
+        text-align: center;
+    }
+
+    .playlist {
+        max-width: 48vh;
+        min-height: 21vh;
+        background-color: #363636;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-left: 1vh;
+        margin-top: 1vh;
+        border-radius: 8px;
+    }
+
+    .podcast {
+        max-width: 48vh;
+        min-height: 21vh;
+        background-color: #363636;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-left: 1vh;
+        margin-bottom: 3vh;
+        border-radius: 8px;
+    }
+
+    .cookie {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        height: 24vh;
+    }
+
+    /* Parte "central" do site */
+
+    #conteudo {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #1C1C1C;
+        flex-grow: 2;
+        max-height: 87vh;
+        border-radius: 8px;
+        overflow-y: scroll;
+    }
+
+    .conta {
+        display: flex;
+        flex-flow: row wrap;
+        background-color: RGB(17, 17, 17);
+        min-width: 100%;
+        min-height: 10vh;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mostrar-tudo {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        min-height: 8vh;
+        /* background-color: chartreuse; */
+        align-items: flex-start;
+        margin-left: 23px;
+        margin-right: 15px;
+    }
+
+    /* Classe usada no ultimo "mostrar-tudo" para alinhar a margem de cima */
+    .margem-superior {
+        margin-top: 26px;
+    }
+
+    .container-card {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        min-height: 41vh;
+        background-color: transparent;
+        justify-content: space-evenly;
+        align-items: center; 
+    }
+
+
+    .card {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: rgb(36, 36, 36);
+        max-width: 170px;
+        min-width: 168px;
+        min-height: 260px;
+        border-radius: 5px;
+    }
+
+    /* .linha-horizontal{
+        margin-bottom: 13vh;
+        width: 900px;
+        border: 0.3px solid #A9A9A9;
+        align-self: center;
+        margin-top: 13vh;
+    } */
+
+    .imagem {
+        width: 140px;
+        height: 140px;
+        align-self: center;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .espaco-sobrando {
+        height: 13px;
+    }
+    /* Rodapé */
+    
+    footer {
+        margin-top: 1.5vh;
+        background-color: blueviolet;
+        height: 9vh;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        
+    }
+
+    .texto-footer {
+        display: flex;
+        flex-flow: column wrap;
+        gap: 6px;
+        justify-content: center;
+    }
+
+    .texto-footer > p, span {
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    

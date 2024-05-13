@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="containers.css">
+    <link rel="stylesheet" href="componentes.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="icon" href="img/icone-spotify-noir.png" type="image/png">
+    <link rel="stylesheet" href="responsividade.css">
+    <title>Clone Spotify</title>
+
+</head>
+<body>
+        <div id="container">
+            <div id="lateral">
+                <div class="box1">
+                    <div><i class="fa-solid fa-house"></i><span>Início</span></div>
+                    <div><i class="fa-solid fa-magnifying-glass"></i><span>Buscar</span></div>
+                </div>
+
+                <div class="box2">
+                    <!-- Talvez eu tenha que criar duas divs aqui, uma para o texto ficar à               esquerda, e outra para que o + fique à direita. -->
+                    <div class="biblioteca">
+                        <div><i class="fa-solid fa-book"></i><span>Sua Biblioteca</span></div>
+                        <span><button class="botao-mais"><i class="fa-solid fa-plus"></i></button></span>
+                    </div>
+                    <div class="container-explorar">
+                        <div class="playlist">
+                            <p class="titulo-lateral">Crie sua primeira playlist</p>
+                            <p class="texto-lateral"> É fácil, vamos te ajudar.</p>
+                            <button class="botao-lateral-1">Criar playlist</button>
+                        </div>
+
+                        <div class="podcast">
+                            <p class="titulo-lateral">Que tal seguir um podcast novo?</p>
+                            <p class="texto-lateral">Avisaremos você sobre novos episódios.</p>
+                            <button class="botao-lateral-2">Explore podcasts</button>
+                        </div>
+                    </div>
+
+                    <div class="cookie">
+                        <p><a href="#">Cookies</a></p>
+                        <button class="idioma"><i class="fa-solid fa-globe"></i>Português do Brasil </button>
+                    </div>
+    
+                </div>
+            </div>
+
+            <div id="conteudo">
+                <div class="conta"> 
+                    <!-- Talvez eu tenha que criar duas divs aqui, uma para os botôes ficarem à               esquerda, e outra para os outros botôes fiquem à direita. -->
+                    
+                    <!-- Nesse caso, é sim uma opção válida criar duas divs, porém, neste caso, o uso
+                    da tag "justify-content: space-between;" obtem um melhor resultado com menos 
+                    linha de código. -->
+                    <!-- OBS: Continua sendo necessário o uso das divs separando os botões. -->
+                    <div class="botoes-nav">
+                        <button class="navegar"><i class="fa-solid fa-chevron-left" style="color: #A9A9A9;"></i></button>
+                        <button class="navegar"><i class="fa-solid fa-chevron-right" style="color: #A9A9A9;"></i></button>
+                    </div>
+
+                    <div class="botoes-conta">
+                        <button class="botao-cad">Inscrever-se</button>
+                        <button class="botao-login">Entrar</button>
+                    </div>
+                </div>
+
+                <div class="mostrar-tudo">
+                    <a href="#" class="texto-mostrar-tudo">Playlists do Spotify</a>
+                    <a href="#" class="mostrar">Mostrar tudo</a>
+                </div>
+
+                <div class="container-card">
+                    <div class="card">
+                        <img src="img/Legião_Urbana_-_Que_País_É_Este.jpg"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Rock Nacional </p>
+                            <p class="subtitulo"> Uma playlist com os principais ícones do rock brasileiro.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/rappers copy collor.jpg"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Rap Nacional </p>
+                            <p class="subtitulo"> Uma playlisyt contendo os maiores nomes do rap brasileiro. </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Saiba-o-que-e-trap-O-genero-musical-do-momento.png"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Ícones do trap </p>
+                            <p class="subtitulo"> Maiores ícones do trap internacional. </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/ab67616d0000b273775599d96baf6dfc73ec86a4.jpg"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Phonk Music </p>
+                            <p class="subtitulo"> Os melhores do Phonk. </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/download.jpg"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Mais tocadas de 2023 </p>
+                            <p class="subtitulo"> Os artistas mais ouvidos do momento! </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+
+                <div class="mostrar-tudo margem-superior">
+                    <a href="#" class="texto-mostrar-tudo">Foco</a>
+                    <a href="#" class="mostrar">Mostrar tudo</a>
+                </div>
+                
+                <div class="container-card">
+                    <div class="card">
+                        <img src="img/_125870287_8bb3c7d1-9b75-402e-abb0-812090677ead.jpg"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Lofi Girl </p>
+                            <p class="subtitulo"> Músicas para relxar e estudar. </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/ced45fb44f3c4c238dad12bbb296851b_464_464.jpg"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Pianos Relaxantes </p>
+                            <p class="subtitulo"> Músicas de piano para relaxar sua mente. </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/ab67616d0000b273d61f083f6bd5920e4cf52177.jpg"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Foco no treino </p>
+                            <p class="subtitulo"> Músicas para não perder o foco na academia. </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/images.jpg"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Bossa Nova </p>
+                            <p class="subtitulo"> Algumas das mais famosas músicas do genêro! </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/download.png"  class="imagem">
+                        <div>
+                            <p class="titulo-card"> Jazz </p>
+                            <p class="subtitulo"> Músicas de Jazz para descontrair. </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- O site do Spotify Web atualizou, tirando toda a parte abaixo do site. com isso fiquei sem
+                uma referência para desenvolver essa parte. Deixei ela comentada para usa-lá outra hora,
+                caso o site do Spotify volte com essa parte de baixo. -->
+
+                <!-- <div class="linha-horizontal"></div> -->
+                <div class="espaco-sobrando"></div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="texto-footer">
+                <p>TESTAR O PREMIUM DE GRAÇA</p>
+                <p>Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+            </div>
+            <div>
+                <button class="botao-footer">Inscreva-se grátis</button>
+            <div>
+        </footer>
+</body>
+</html>

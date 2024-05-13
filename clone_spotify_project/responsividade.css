@@ -1,0 +1,188 @@
+
+/* tabela de testes:
+min 375: green / CELULARES
+min 768: yellow / TABLETS
+min 1024: purple / DESKTOP
+
+*/
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        max-width: 100%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #lateral {
+        display: flex;
+        flex-flow: column wrap;
+        min-width: 100%;
+    }
+
+    .box1 {
+        display: flex;
+        flex-flow: column;
+        min-width: 100%;
+        border-radius: 0px 0px 8px 8px;
+    }
+
+
+    .box2 {
+        min-width: 100%;
+    }
+
+    .container-explorar {
+        min-width: 100%;
+        align-items: center;
+    }  
+
+    .playlist {
+        min-width: 85%;
+        padding-top: 15px;
+    }
+
+    .podcast {
+        min-width: 85%;
+        padding-top: 15px;
+    }
+
+    #conteudo {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #1C1C1C;
+        max-height: 50%; 
+        border-radius: 8px;
+        max-width: 100%;
+    }
+    
+
+    .conta {
+        display: flex;
+        min-width: 100%;
+        background-color: green;
+    }
+
+    .container-card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 13%;
+        align-items: center;
+        column-gap: 7.5px;
+        row-gap: 20px;
+    }
+
+
+    .card {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: rgb(36, 36, 36);
+        max-width: 170px;
+        min-width: 168px;
+        min-height: 260px;
+        border-radius: 5px;
+    }
+
+    .titulo-card {
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+    
+    footer {
+        height: 22vh;
+        max-width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .botao-footer{
+        width: 250px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 822px) {
+    
+    .conta {
+        background-color: yellow;
+    }
+
+    .container-card {
+        min-height: 150vh;
+    }
+
+
+
+    footer {
+        height: 22vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botao-footer{
+        width: 250px;
+    }
+    
+}
+
+@media screen and (min-width: 823px) and (max-width: 1023px) {
+    .conta {
+        background-color: yellow;
+    }
+
+    .container-card {
+        min-height: 110vh;
+        row-gap: 7.5px;
+    }
+
+    footer {
+        height: 22vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botao-footer{
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1193px) {
+    .conta {
+        background-color: pink;
+    }
+
+    .container-card {
+        min-height: 100vh;
+        row-gap: 2px;
+        column-gap: 7px;
+    }
+}
+
+@media screen and (min-width: 1194px){
+    .conta {
+        background-color: purple;
+    }
+
+    .container-card {
+        row-gap: 50px;
+    }
+
+    .espaco-sobrando {
+        min-height: 50px;
+    }
+} 

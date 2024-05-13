@@ -1,0 +1,245 @@
+
+
+   /* Parte da lateral */
+    .box1 > div {
+        margin-left: 20px;
+        color: #A9A9A9;
+    }
+
+    .box1 > div:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .box1 > div > span {
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+
+    .box1 > div > i {
+        font-size: 20px;
+    }
+
+
+    .biblioteca > div {
+        margin-left: 22px;
+        color: #A9A9A9;
+    }
+
+    .biblioteca > div:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .biblioteca > div > span{
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+
+
+    .biblioteca > span {
+        margin-right: 20px;
+    }
+
+    .biblioteca > div > i {
+        font-size: 20px;
+    }
+
+    .botao-mais {
+        background-color: transparent;
+        font-size: 20px;
+        color: #A9A9A9;
+        border-radius: 50%;
+        border-style: none;
+        height: 30px;
+        width: 30px;
+    }
+
+    .botao-mais:hover {
+        color: white;
+        background-color: #262626;
+        cursor: pointer;
+    }
+
+    .titulo-lateral{
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 15px;
+        line-height: 15px;
+        margin-bottom: 5px;
+        cursor: default;
+    }
+
+    .texto-lateral {
+        color: #FFFAFA;
+        font-size: 13px;
+        margin-left: 15px;
+        line-height: 14px;
+        cursor: default;
+    }
+
+    .botao-lateral-1{
+        margin-left: 15px;
+        width: 18vh;
+        font-size: 13px;
+        height: 32px;
+        font-weight: bold;
+        color: black;
+        border-radius: 200px;
+        border: none;
+        background-color: white;
+        margin-top: 10px;
+    }
+
+    .botao-lateral-1:hover{
+        transform: scale(1.06);
+        cursor: pointer;
+    }
+
+    .botao-lateral-2{
+        margin-left: 15px;
+        width: 20vh;
+        font-size: 13px;
+        height: 32px;
+        font-weight: bold;
+        color: black;
+        border-radius: 200px;
+        border: none;
+        background-color: white;
+        margin-top: 10px;
+    }
+
+    .botao-lateral-2:hover{
+        transform: scale(1.06);
+        cursor: pointer;
+    }
+
+    .cookie > p > a {
+        color: #A9A9A9;
+        font-size: 11px;
+        margin-left: 15px;
+        text-decoration: none;
+    }
+    .cookie > p > a:hover {
+        text-decoration: underline;
+    }
+
+    .idioma {
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+        width: 175px;
+        height: 34px;
+        background-color: transparent;
+        border: 1px solid #A9A9A9;
+        border-radius: 200px;
+        margin-left: 15px;
+    }
+
+    .idioma:hover{
+        cursor: pointer;
+        transform: scale(1.06);
+        border-color: white;
+    }
+
+    .idioma > i {
+        margin-right: 5px;
+        font-size: 16px;
+    }
+
+    /* Parte do conteúdo */
+
+    .navegar {
+        font-size: 22px;
+        border-radius: 98%;
+        background-color: RGB(11, 11, 11);
+        border: none;
+        width: 35px;
+        height: 35px;
+    }
+
+    .navegar:first-child {
+        margin-left: 23px;
+        margin-right: 5px;
+    }
+
+    .botao-cad{
+        background-color: transparent;
+        font-size: 15px;
+        font-weight: bold;
+        color: #A9A9A9;
+        border: none;
+        margin-right: 15px;
+    }
+
+    .botao-login {
+        width: 16vh;
+        font-size: 15px;
+        height: 48px;
+        font-weight: bold;
+        color: black;
+        border-radius: 200px;
+        border: none;
+        background-color: white;
+        margin-right: 23px;
+    }
+
+    .texto-mostrar-tudo {
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+
+    .mostrar {
+        font-size: 13.5px;
+        font-weight: bold;
+        color: #A9A9A9;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+
+    .titulo-card {
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 10px;
+        align-self: center;
+    }
+
+    .subtitulo {
+        color: #A9A9A9;
+        font-size: 13.2px;
+        margin-left: 10px;
+        margin-right: 7px;
+    }
+
+
+    /* Parte do rodapé */
+
+    footer > .texto-footer >:first-child {
+        font-size: 12px;
+        color: white;
+    }
+
+    footer > .texto-footer > p {
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .botao-footer{
+        width: 30vh;
+        font-size: 15px;
+        height: 48px;
+        font-weight: bold;
+        color: black;
+        border-radius: 200px;
+        border: none;
+        background-color: white;
+        margin-right: 23px;
+    }
