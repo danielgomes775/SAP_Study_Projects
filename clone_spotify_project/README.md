@@ -1,4 +1,4 @@
-# clone_spotify
+# Clone_spotify
 Projeto com o objetivo de clonar a página do Spotify Web, utilizando Flexbox. 
 
 Este projeto foi criado para treinar e aprender técnicas de Flexbox, responsividade e animações baseando-se no site Spotify Web, 
